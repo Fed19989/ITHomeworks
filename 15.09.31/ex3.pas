@@ -30,6 +30,6 @@ begin
   for i := Length(s) downto 1 do
     if not (s[i] in ['0'..'9', ' ']) then
       Delete(s, i, 1);
-      
+  //Применяем функцию и выводим результат.
   write(GetMax(s));
 end.
