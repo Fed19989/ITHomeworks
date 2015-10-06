@@ -29,9 +29,6 @@ begin
   until c = '.';
   
   for i := 97 to 122 do 
-   if a[i]<>0 then
-   writeln(chr(i),a[i]);
- // g := chr(n);
- // g := UpCase(g);
-  
+    if a[i] <> 0 then
+      writeln(chr(i), a[i]);
 end.
